@@ -46,12 +46,36 @@ public class CustomList extends ArrayAdapter<City> {
     }
 
     public int getCount(){
+
         return cities.size();
     }
 
     public void addCity(City city){
         cities.add(city);
     }
+
+    public void hasCity(String cityName) {
+//        for (City city : cities) {
+//            if (city.getCityName().equals(cityName)) {
+//                return true;
+//            }
+//        }
+//        return false;
+
+    }
+
+    public void deleteCity(String cityName) {
+//        for (City city : cities) {
+//            if (city.getCityName().equals(cityName)) {
+//                cities.remove(city);
+//                break;
+//            }
+//        }
+    }
+
+
+
+
 
 
 
